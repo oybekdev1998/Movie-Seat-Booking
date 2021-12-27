@@ -19,7 +19,7 @@ function updatedSelectedCount() {
 
 // Movie select event
 
-movieSelect.addEventListener('change' e => {
+movieSelect.addEventListener('change', e =>{
   ticketPrice = +e.target.value
   updatedSelectedCount() 
 })
